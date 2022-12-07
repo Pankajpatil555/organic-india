@@ -1,0 +1,72 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    &nbsp;&nbsp;&nbsp;
+    <img src="../../assets/organic india.png" [ngStyle]="{'height':'70px', 'width':'90px'}" alt="kkk">
+    &nbsp;
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><h5 [ngStyle]="{'color':'black'}">Home</h5></a>
+        </li>
+        
+        <li class="nav-item dropdown " >
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            
+            <h5 [ngStyle]="{'color':'black'}">Shop by Category</h5>
+          </a>
+          <!-- fisrt dropdown start -->
+          
+          <ul class="dropdown-menu" data-dropdown-menu>
+            <li>
+              <span class="nav-link-dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                 Tea and Infusion </span>
+               
+                <ul>
+                  <li><a class="dropdown-item" href="#">Herbal Tea</a></li>
+                  <li><a class="dropdown-item" href="#">Sample Tea</a></li>
+                  <li><a class="dropdown-item" href="#">infusion</a></li>
+                </ul>
+            
+            </li>
+            <li>
+              <span class="nav-link-dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+               Tea  </span>
+               
+                <ul>
+                  <li><a class="dropdown-item" href="#">Herbal Tea</a></li>
+                  <li><a class="dropdown-item" href="#">Sample Tea</a></li>
+                  <li><a class="dropdown-item" href="#">infusion</a></li>
+                </ul>
+            </li>
+            
+            <li>
+              <span class="nav-link-dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                 Infusion </span>
+               
+                <ul>
+                  <li><a class="dropdown-item" href="#">Herbal Tea</a></li>
+                  <li><a class="dropdown-item" href="#">Sample Tea</a></li>
+                  <li><a class="dropdown-item" href="#">infusion</a></li>
+                </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- first dropdown end -->
+        <li class="nav-item">
+          <a class="nav-link" href="#"><h5 [ngStyle]="{'color':'black' }">Winter Care</h5></a>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

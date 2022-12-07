@@ -1,0 +1,24 @@
+
+ul li{
+    list-style-type:none ;
+}
+
+ul li {
+    
+    color:green;
+}
+ul{
+    
+    width: 1100px;
+}
+ul li span{
+    padding: 35px;
+    color: green;
+}
+img{
+    padding: auto;
+}
+.navbar-brand {
+    position: static;
+    overflow: hidden;
+}
