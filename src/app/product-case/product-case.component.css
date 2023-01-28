@@ -1,0 +1,19 @@
+img{
+    height: 350px;
+    width: 200px;
+}
+img{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.title{
+    text-align: center;
+    padding-top: 35px;
+
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}

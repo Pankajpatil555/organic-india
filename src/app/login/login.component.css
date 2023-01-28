@@ -1,0 +1,32 @@
+input.ng-touched.ng-invalid{
+    border: 1px solid red;
+    box-shadow: 0 0 13px inset rgba(255,0 ,0,0.2);
+}
+/* .col-md-6{
+    margin-left: 450px;
+    margin-top: 50px;
+     
+}
+.col-md-5{
+    margin-left: 450px;
+    margin-top: 50px;
+} */
+
+.row{
+    padding-top: 250px;
+}
+.col-md-5{
+   
+    text-align: center;
+
+}
+
+.col-md-5 span{
+    font-size: 35px;
+
+}
+body{
+    height: 750px;
+    background-color: rgb(74, 183, 226);
+}
+

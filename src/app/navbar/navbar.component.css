@@ -16,7 +16,7 @@ ul li span{
     color: green;
 }
 img{
-    padding: auto;
+    padding: 10px,10px,10px,10px;
 }
 .navbar-brand {
     position: static;

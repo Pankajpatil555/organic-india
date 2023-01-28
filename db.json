@@ -1,0 +1,24 @@
+{
+  "userdata": [
+    {
+      "userName": "pankaj",
+      "email": "pankaj",
+      "course": "Angular",
+      "addressDetails": {
+        "paramentAddress": "kole",
+        "pinCode": 413314
+      },
+      "id": 1
+    },
+    {
+      "userName": "vdzs",
+      "email": "sdv",
+      "course": "Angular",
+      "addressDetails": {
+        "paramentAddress": "gvdf",
+        "pinCode": 5464
+      },
+      "id": 2
+    }
+  ]
+}
